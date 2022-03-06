@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>Web Application from Archetype for Servlet 3.1</display-name>
+<servlet>
+    <servlet-name>HomePageServlet</servlet-name>
+    <servlet-class>com.servlet.HomePageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>HomePageServlet</servlet-name>
+    <url-pattern>/HomePageServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servlet.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+<servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.servlet.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+<servlet>
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>com.servlet.PaymentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PaymentServlet</servlet-name>
+    <url-pattern>/PaymentServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+<servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.servlet.AdminLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+<servlet>
+    <servlet-name>AirlineServlet</servlet-name>
+    <servlet-class>com.servlet.AirlineServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AirlineServlet</servlet-name>
+    <url-pattern>/AirlineServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+<servlet>
+    <servlet-name>AirportServlet</servlet-name>
+    <servlet-class>com.servlet.AirportServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AirportServlet</servlet-name>
+    <url-pattern>/AirportServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+<servlet>
+    <servlet-name>FlightsServlet</servlet-name>
+    <servlet-class>com.servlet.FlightsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FlightsServlet</servlet-name>
+    <url-pattern>/FlightsServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+<servlet>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>com.servlet.ChangePasswordServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/ChangePasswordServlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+</web-app>
